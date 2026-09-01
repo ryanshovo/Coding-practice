@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSDA Level 3 - Portfolio Page</title>
+
+    <!-- Tailwind CSS & DaisyUI CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-base-200">
+
+           <!-- NAVBAR SECTION (DaisyUI Navbar)
+         =================================================== -->
+    <div class="navbar bg-base-100 shadow-md sticky top-0 z-50 px-4 md:px-12">
+      <div class="navbar-start">
+        <!-- Mobile Dropdown Menu -->
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl font-bold text-primary">MY PORTFOLIO</a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 font-semibold">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-end">
+        <a class="btn btn-primary btn-sm md:btn-md">Contact Us</a>
+      </div>
+    </div>
+
+
+    <!-- ===================================================
+         a. PAGE TITLE SECTION
+         =================================================== -->
+    <section class="bg-primary text-primary-content py-10 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold">My Portfolio</h1>
+        <p class="text-sm md:text-base mt-2 opacity-90">Personal Info, Education, Skills, Experience & Certifications</p>
+    </section>
+
+    <!-- ===================================================
+         b. PERSONAL INFORMATION SECTION
+         =================================================== -->
+    <section class="py-12 bg-base-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6 text-primary">Personal Information</h2>
+            
+            <div class="card bg-base-200 shadow p-6 max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm md:text-base">
+                    <p><strong>Name:</strong> S.M. Sajadul Hasan</p>
+                    <p><strong>Profession:</strong> Physiotherapist & Web Designer</p>
+                    <p><strong>Nationality:</strong> Bangladeshi</p>
+                    <p><strong>Address:</strong> Dhaka, Bangladesh</p>
+                    <p><strong>Phone:</strong> +880 1700-000000</p>
+                    <p><strong>Email:</strong> sajadulhasan@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+         c. EDUCATION INFORMATION SECTION
+         =================================================== -->
+    <section class="py-12 bg-base-200">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6 text-primary">Education Information</h2>
+            
+            <div class="overflow-x-auto max-w-3xl mx-auto">
+                <table class="table w-full bg-base-100 shadow rounded-lg">
+                    <thead class="bg-primary text-primary-content text-sm">
+                        <tr>
+                            <th>Exam / Degree</th>
+                            <th>Institute / Board</th>
+                            <th>Passing Year</th>
+                            <th>Result (GPA)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm md:text-base">
+                        <tr>
+                            <td class="font-bold">B.Sc in Physiotherapy</td>
+                            <td>SAIC Institute of Medical Technology, Dhaka</td>
+                            <td>Running / Completed</td>
+                            <td>Passed</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold">HSC</td>
+                            <td>General Education Board</td>
+                            <td>2014</td>
+                            <td>4.10</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold">SSC</td>
+                            <td>General Education Board</td>
+                            <td>2012</td>
+                            <td>4.56</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+         d. SPECIAL SKILL SECTION
+         =================================================== -->
+    <section class="py-12 bg-base-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6 text-primary">Special Skills</h2>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                <div class="p-4 bg-base-200 rounded-lg shadow font-semibold text-secondary">
+                    HTML5 & CSS3
+                </div>
+                <div class="p-4 bg-base-200 rounded-lg shadow font-semibold text-secondary">
+                    Tailwind CSS
+                </div>
+                <div class="p-4 bg-base-200 rounded-lg shadow font-semibold text-secondary">
+                    DaisyUI Component
+                </div>
+                <div class="p-4 bg-base-200 rounded-lg shadow font-semibold text-secondary">
+                    Physiotherapy & Care
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+         e. TRAINING CERTIFICATION SECTION (DaisyUI Modal)
+         =================================================== -->
+    <section class="py-12 bg-base-200 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-3 text-primary">Training & Certification</h2>
+            <p class="text-gray-600 text-sm mb-6">Click below to view certificate details</p>
+            
+            <!-- Modal Trigger Button -->
+            <button class="btn btn-primary btn-sm md:btn-md" onclick="cert_modal.showModal()">View Certifications</button>
+
+            <!-- DaisyUI Modal Component -->
+            <dialog id="cert_modal" class="modal">
+                <div class="modal-box text-left">
+                    <h3 class="font-bold text-lg text-primary mb-4">Training Certificates</h3>
+                    
+                    <div class="space-y-3">
+                        <div class="border-b pb-2">
+                            <h4 class="font-bold text-secondary">NSDA Web Design Level 3</h4>
+                            <p class="text-xs text-gray-500">National Skill Development Authority (NSDA)</p>
+                        </div>
+                        <div class="border-b pb-2">
+                            <h4 class="font-bold text-secondary">B.Sc in Physiotherapy Training</h4>
+                            <p class="text-xs text-gray-500">SAIC Institute of Medical Technology, Dhaka</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-action">
+                        <form method="dialog">
+                            <button class="btn btn-sm">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+    </section>
+
+    <!-- ===================================================
+         f. WORKING EXPERIENCE SECTION
+         =================================================== -->
+    <section class="py-12 bg-base-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6 text-primary">Working Experience</h2>
+            
+            <div class="space-y-4 max-w-2xl mx-auto">
+                <!-- Experience 1 -->
+                <div class="card bg-base-200 p-5 shadow border-l-4 border-primary">
+                    <h3 class="font-bold text-lg text-secondary">Web Design Practitioner</h3>
+                    <p class="text-xs text-gray-500 mb-2">NSDA Level 3 Assessment Project (2024)</p>
+                    <p class="text-sm text-gray-600">Building responsive websites using HTML, Tailwind CSS, and DaisyUI components.</p>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="card bg-base-200 p-5 shadow border-l-4 border-secondary">
+                    <h3 class="font-bold text-lg text-secondary">Clinical Physiotherapist Intern</h3>
+                    <p class="text-xs text-gray-500 mb-2">Medical Institute / Hospital</p>
+                    <p class="text-sm text-gray-600">Providing physical rehabilitation and patient care support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
