@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Page</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- daisyUI -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+<body class="bg-base-200 text-base-content">
+
+  <!-- =========================
+       Page Title Section
+  ========================== -->
+  <section class="bg-base-100 py-10 text-center shadow-sm">
+
+    <div class="container mx-auto px-4">
+
+      <h1 class="text-3xl md:text-4xl font-bold">
+        Contact Us
+      </h1>
+
+      <p class="mt-2 text-base-content/70">
+        Get in touch with us
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       Direct Contact Information
+  ========================== -->
+  <section class="container mx-auto px-4 py-10">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Phone -->
+      <div class="card bg-base-100 shadow-md">
+
+        <div class="card-body text-center">
+
+          <h2 class="text-xl font-bold">
+            Phone
+          </h2>
+
+          <p>
+            +880 1911-111111
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Email -->
+      <div class="card bg-base-100 shadow-md">
+
+        <div class="card-body text-center">
+
+          <h2 class="text-xl font-bold">
+            Email
+          </h2>
+
+          <p>
+            example@gmail.com
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Address -->
+      <div class="card bg-base-100 shadow-md">
+
+        <div class="card-body text-center">
+
+          <h2 class="text-xl font-bold">
+            Address
+          </h2>
+
+          <p>
+            Dhaka, Bangladesh
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       Contact Form Section
+  ========================== -->
+  <section class="container mx-auto px-4 pb-10">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+
+      <!-- Contact Form -->
+      <div class="card bg-base-100 shadow-md">
+
+        <div class="card-body">
+
+          <h2 class="text-2xl font-bold mb-4">
+            Send Us a Message
+          </h2>
+
+
+          <form>
+
+            <!-- Name -->
+            <div class="form-control mb-4">
+
+              <label class="label">
+                <span class="label-text">
+                  Name
+                </span>
+              </label>
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="input input-bordered w-full"
+                required
+              >
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="form-control mb-4">
+
+              <label class="label">
+                <span class="label-text">
+                  Email
+                </span>
+              </label>
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                class="input input-bordered w-full"
+                required
+              >
+
+            </div>
+
+
+            <!-- Phone -->
+            <div class="form-control mb-4">
+
+              <label class="label">
+                <span class="label-text">
+                  Phone
+                </span>
+              </label>
+
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Enter your phone number"
+                class="input input-bordered w-full"
+                required
+              >
+
+            </div>
+
+
+            <!-- Address -->
+            <div class="form-control mb-4">
+
+              <label class="label">
+                <span class="label-text">
+                  Address
+                </span>
+              </label>
+
+              <input
+                type="text"
+                name="address"
+                placeholder="Enter your address"
+                class="input input-bordered w-full"
+                required
+              >
+
+            </div>
+
+
+            <!-- Message -->
+            <div class="form-control mb-4">
+
+              <label class="label">
+                <span class="label-text">
+                  Message
+                </span>
+              </label>
+
+              <textarea
+                name="message"
+                placeholder="Write your message"
+                class="textarea textarea-bordered h-32"
+                required
+              ></textarea>
+
+            </div>
+
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="btn btn-primary w-full"
+            >
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+
+      <!-- =========================
+           Google Map Section
+      ========================== -->
+      <div class="card bg-base-100 shadow-md">
+
+        <div class="card-body">
+
+          <h2 class="text-2xl font-bold mb-4">
+            Our Location
+          </h2>
+
+          <div class="w-full h-96">
+
+            <iframe
+              src="https://www.google.com/maps?q=Dhaka,Bangladesh&output=embed"
+              class="w-full h-full rounded-lg border-0"
+              loading="lazy"
+              allowfullscreen>
+            </iframe>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer footer-center bg-base-100 text-base-content p-6">
+
+    <p>
+      © 2026 Contact Page. All rights reserved.
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
